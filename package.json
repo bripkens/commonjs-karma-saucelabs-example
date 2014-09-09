@@ -1,0 +1,23 @@
+{
+  "name": "karma-saucelabs-with-badge",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha && ./node_modules/.bin/karma start local.karma.conf.js"
+  },
+  "author": "Ben Ripkens <bripkens.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.12.23",
+    "karma-bro": "^0.7.0",
+    "karma-cli": "0.0.4",
+    "karma-commonjs": "0.0.11",
+    "karma-mocha": "^0.1.9",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sauce-launcher": "^0.2.10",
+    "karma-spec-reporter": "0.0.13",
+    "mocha": "^1.21.4",
+    "underscore": "^1.7.0"
+  }
+}
