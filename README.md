@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/bripkens/commonjs-karma-saucelabs-example.svg?branch=master)](https://travis-ci.org/bripkens/commonjs-karma-saucelabs-example)
 
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/bripkensdev.svg)](https://saucelabs.com/u/bripkensdev)
+
 This repository (will) contain a minimal working example of CommonJS modules
 that are transpiled for use in the browser and tested using Karma and
 SauceLabs.
@@ -36,10 +38,8 @@ $ travis encrypt --add env.global SAUCE_ACCESS_KEY=...
 
 
 ## TODO
- - configure local SauceLabs usage
- - test badge
  - where to register with saucelabs, how to find the access key
    see lower left hand corner on https://saucelabs.com/account
- - use one account per OSS project.
+ - use one account for OSS and create sub accounts for projects
    Create one via https://saucelabs.com/opensauce
 > We currently do not allow transitioning existing accounts to our open source program. Please consider creating a new account (preferably one per OSS project) or contact help@saucelabs.com for assistance. Please note: You'll need to logout to sign up for a new account.
