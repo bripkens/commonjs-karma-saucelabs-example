@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- '0.10'
+script:
+- ./node_modules/.bin/mocha && ./node_modules/.bin/karma start saucelabs.karma.conf.js
+env:
+  global:
+  - secure: oMfWLl6kjmn2zY8r04djsfSh5kNMzkKzGjwoK4F3IHJmyU1UrPo2FtaMpAybIOWeled8OyFHwJaTb7FCyDVgLfkLa6RKnwmRj7UmKkYGqQlZ5K2/kFRdSjQcs6xGaHjW9zeLkPtiP919IqNaK6UZZhWTTn820C75tHgMdV3KCZM=
+  - secure: TyaTSgyWvWJguUXNTEJE7uzbTzDBnhARdDD03Md/gXsMGhlvwZ1EIbJfSHX9qIgE+aQb4TnlfOiM8gBOM1KsadRqwtJ2XWuM3PlQiWZLH1VKr+6u1cl9/PP+H3fLscD8+C/KJEAtaJhgoM9kgROx+AvoO3WSNFRV/o0L5HZKYAo=
