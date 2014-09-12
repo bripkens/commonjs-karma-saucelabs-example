@@ -28,8 +28,8 @@ var browsers = {
 };
 
 module.exports = function(config) {
-  config.set(_.extend({
-    reporters: ['spec', 'saucelabs'],
+  config.set(_.defaults({
+    reporters: ['saucelabs', 'spec'],
 
     sauceLabs: {
         public: 'public',

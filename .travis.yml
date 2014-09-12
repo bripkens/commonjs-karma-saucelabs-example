@@ -5,5 +5,5 @@ script:
 - ./node_modules/.bin/mocha && ./node_modules/.bin/karma start saucelabs.karma.conf.js
 env:
   global:
-  - secure: oMfWLl6kjmn2zY8r04djsfSh5kNMzkKzGjwoK4F3IHJmyU1UrPo2FtaMpAybIOWeled8OyFHwJaTb7FCyDVgLfkLa6RKnwmRj7UmKkYGqQlZ5K2/kFRdSjQcs6xGaHjW9zeLkPtiP919IqNaK6UZZhWTTn820C75tHgMdV3KCZM=
-  - secure: TyaTSgyWvWJguUXNTEJE7uzbTzDBnhARdDD03Md/gXsMGhlvwZ1EIbJfSHX9qIgE+aQb4TnlfOiM8gBOM1KsadRqwtJ2XWuM3PlQiWZLH1VKr+6u1cl9/PP+H3fLscD8+C/KJEAtaJhgoM9kgROx+AvoO3WSNFRV/o0L5HZKYAo=
+  - secure: bPKW1yP55z6JfDxFbuymES6mdK3zB6FxfrahY4lA40AHLpHvgSyZuvFJ0wynQB9T8V/ICzRgjQzmUXeHC9qpbojgSZQefuzENygv/lPWFE+ay7hNb7NtoOO0a64hdPvURh4WiFbFyMWmMBSJlQOUiSxFaf2eX+v+26AVUy2COH8=
+  - secure: f0N9oJ0IsYU8vRgKfoVe5mkdqXgOZppmn2sBDt9k/EFk5D3mGzNyqpH48lAvjVjErNJcr2xZEbx/8rqjsO8bJugrPe372Uj7S/jru4fvpXI0XUhvH6OHVRq0L//2AoZV8gITiOi5k0wOy0GlBEGPGCMFH3LvfpIlW+FOg2EKUAc=
