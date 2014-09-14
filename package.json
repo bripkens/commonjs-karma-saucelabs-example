@@ -12,7 +12,6 @@
     "karma": "^0.12.23",
     "karma-bro": "^0.7.0",
     "karma-cli": "0.0.4",
-    "karma-commonjs": "0.0.11",
     "karma-mocha": "^0.1.9",
     "karma-phantomjs-launcher": "^0.1.4",
     "karma-sauce-launcher": "git://github.com/bripkens/karma-sauce-launcher.git#job-visibility",
